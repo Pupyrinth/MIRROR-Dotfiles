@@ -2,7 +2,7 @@
 
 # Some things taken from here https://github.com/nmdra/Dotfiles/blob/main/scripts/birthday.sh
 
-jsonFile="/home/luna/NixOS/scripts/challengesData.json"
+jsonFile="/home/luna/Scripts/challengesData.json"
 
 
 d="$((s / 60 / 60 / 24)) days"
