@@ -1,0 +1,59 @@
+{
+  "installEpoch": "1736967026",
+  "challenges": [
+    {
+      "title": "Nobara 2 Months",
+      "startDate": "2023-11-26 20:32:12",
+      "endDate": "2024-01-26 20:32:12",
+      "lasted": "",
+      "procentDone": "",
+      "reinstalls": 0,
+      "current": false
+    },
+    {
+      "title": "EndeavourOS",
+      "startDate": "2024-07-04 03:56:25",
+      "endDate": "",
+      "lasted": "1m 3d 13h 19m 29s",
+      "procentDone": "",
+      "reinstalls": 0,
+      "current": false
+    },
+    {
+      "title": "Bazzite",
+      "startDate": "2024-08-10 02:01:23",
+      "endDate": "",
+      "lasted": "2w 6d 18h 47m 29s",
+      "procentDone": "",
+      "reinstalls": 0,
+      "current": false
+    },
+    {
+      "title": "EndeavourOS 6 Months",
+      "startDate": "2024-09-13 21:41:03",
+      "endDate": "2025-03-13 21:41:03",
+      "lasted": "2m 2w 2h 15m 32s",
+      "procentDone": "42.58",
+      "reinstalls": 0,
+      "current": false
+    },
+    {
+      "title": "NixOS Beat Alxhr (+17 Days)",
+      "startDate": "2024-12-02 01:17:25",
+      "endDate": "2025-01-15 07:03:00",
+      "lasted": "",
+      "procentDone": "",
+      "reinstalls": 0,
+      "current": false
+    },
+    {
+      "title": "Bazzite 2 Months",
+      "startDate": "2025-01-15 19:50:26",
+      "endDate": "2025-03-15 19:50:26",
+      "lasted": "",
+      "procentDone": "",
+      "reinstalls": 0,
+      "current": true
+    }
+  ]
+}
