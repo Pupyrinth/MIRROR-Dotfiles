@@ -80,6 +80,8 @@ alias zed='zeditor'
 alias chall='~/Scripts/challenges.sh'
 alias backup='~/Scripts/backup.sh'
 
+alias brew='echo "Remeber what happened last time. You do not want to do that."'
+
 # Paths
 PATH="$HOME/.npm-packages/bin:$PATH"
 PATH="$HOME/.bun/bin:$PATH"
