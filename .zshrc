@@ -10,7 +10,8 @@ fi
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+#eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -21,10 +22,16 @@ zinit light djui/alias-tips
 
 # Add in snippets
 zinit snippet OMZP::git
-zinit snippet OMZP::archlinux
-zinit snippet OMZP::command-not-found
 zinit snippet OMZP::sudo
-#zinit snippet OMZP::bun
+
+# Theme
+ZSH_THEME="bira"
+zinit snippet OMZL::git.zsh
+zinit snippet OMZL::prompt_info_functions.zsh
+zinit snippet OMZL::async_prompt.zsh
+zinit cdclear -q
+setopt promptsubst
+zinit snippet OMZT::bira
 
 # Load completions
 autoload -U compinit && compinit
