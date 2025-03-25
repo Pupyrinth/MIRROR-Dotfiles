@@ -93,6 +93,7 @@ alias brew='echo "Remeber what happened last time. You do not want to do that."'
 PATH="$HOME/.npm-packages/bin:$PATH"
 PATH="$HOME/.bun/bin:$PATH"
 PATH="$HOME/.local/bin:$PATH"
+PATH="/usr/local/go/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="/home/luna/.local/share/pnpm"
@@ -101,3 +102,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export PATH=$PATH:/home/luna/.millennium/ext/bin
