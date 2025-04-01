@@ -84,16 +84,21 @@ alias npm='pnpm'
 alias npx='pnpm dlx'
 alias zed='zeditor'
 
+#alias cd='cd ~/myHome'
+
 alias chall='~/Scripts/challenges.sh'
 alias backup='~/Scripts/backup.sh'
 
 alias brew='echo "Remeber what happened last time. You do not want to do that."'
+
+alias ustow='export CURRENT_PATH=$(pwd) && cd ~/myHome/Dotfiles && stow -t /home/luna . && cd $CURRENT_PATH'
 
 # Paths
 PATH="$HOME/.npm-packages/bin:$PATH"
 PATH="$HOME/.bun/bin:$PATH"
 PATH="$HOME/.local/bin:$PATH"
 PATH="/usr/local/go/bin:$PATH"
+PATH="$HOME/go/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="/home/luna/.local/share/pnpm"

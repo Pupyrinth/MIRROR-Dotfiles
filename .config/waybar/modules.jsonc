@@ -1,0 +1,84 @@
+{
+  "hyprland/workspaces": {
+    "format": "{}",
+    "active-only": false,
+    "sort-by-number": true,
+    "on-click": "activate",
+    "all-outputs": false
+  },
+
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 333,
+    "seperate-outputs": true
+  },
+
+  "tray": {
+    "format": "<span foreground='#D3C6AA'>{icon}</span>",
+    "icon-size": 14,
+    "spacing": 5
+  },
+
+  "clock": {
+    "format": "<span foreground='#f6c177'> </span><span>{:%I:%M %a %d}</span>",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>{%W}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b>{}</b></span>"
+      }
+    },
+    "actions": {
+      "on-click-middle": "mode",
+      "on-click-right": "shift_up",
+      "on-click": "shift_down"
+    }
+    /*"format-alt": "<span foreground='#89dceb'> </span><span>{:%H:%M}</span>"*/
+  },
+
+  "cpu": {
+    "format": "<span foreground='#eb6f92'></span> {usage}%"
+  },
+
+  "memory": {
+    "format": "<span foreground='#ebbcba'></span> {}%",
+    "interval": 1
+  },
+
+  "pulseaudio": {
+    "format": "<span foreground='#31748f'>{icon}</span> {volume}%  {format_source}",
+    "format-bluetooth": "<span foreground='#c4a7e7'>{icon}</span> {volume}%  {format_source}",
+    "format-bluetooth-muted": "<span foreground='#c4a7e7'>󰖁</span>  {format_source}",
+    "format-muted": "<span foreground='#eb6f92'>󰖁</span>  {format_source}",
+    "format-source": "<span foreground='#E67E80'></span> {volume}%",
+    "format-source-muted": "<span foreground='#F38BA8'></span>",
+    "format-icons": {
+      "headphone": "",
+      "phone": "",
+      "portable": "",
+      "default": ["", "", ""]
+    },
+    "on-click-left": "pavucontrol",
+    "input": true
+  },
+
+  "custom/power": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "menu": "on-click",
+    "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+    "menu-actions": {
+      "shutdown": "shutdown",
+      "reboot": "reboot",
+      "suspend": "systemctl suspend",
+      "hibernate": "systemctl hibernate"
+    }
+  }
+}

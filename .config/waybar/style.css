@@ -1,0 +1,151 @@
+@import "./themes/rose-pine-moon.css";
+
+* {
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 7px;
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 10pt;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+
+tooltip {
+  background: @base;
+  border-radius: 7px;
+  border: 2px solid @overlay;
+}
+
+#window {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 7px;
+  border-radius: 3px;
+  border-bottom: 2px solid @overlay;
+  border-right: 2px solid @overlay;
+  border-color: @overlay;
+  background-color: @base;
+  color: @foam;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+  border-bottom: none;
+  border-right: none;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @iris;
+}
+
+/* Workspaces */
+@keyframes button_activate {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#workspaces {
+  margin: 5px 5px 2px 5px;
+  border-radius: 3px;
+  padding: 1px;
+  background-color: @base;
+  color: @text;
+}
+
+#workspaces button {
+  margin: 5px 2px 5px 2px;
+  border-radius: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: @base;
+  color: @iris;
+}
+
+#workspaces button.active {
+  background-color: @rose;
+  color: @base;
+  /*color: @bg;*/
+}
+
+#workspaces button.urgent {
+  color: @love;
+}
+
+#workspaces button:hover {
+  border: solid transparent;
+  background-color: @highlightMed;
+}
+
+#tray {
+  margin: 5px 5px 2px 5px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: @base;
+  color: @foam;
+}
+
+#cpu,
+#memory {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: @base;
+  color: @rose;
+}
+
+#pulseaudio {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: @base;
+  color: @iris;
+}
+
+#pulseaudio {
+  margin-right: 0px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 7.5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#clock {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: @base;
+  color: @gold;
+}
+
+#custom-power {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: @base;
+  color: @text;
+}
+
+#language {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: @base;
+  color: @foam;
+}
