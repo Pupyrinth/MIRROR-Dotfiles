@@ -132,6 +132,15 @@ window#waybar {
   color: @gold;
 }
 
+#language {
+  margin: 5px 5px 2px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: @base;
+  color: @foam;
+}
+
 #custom-power {
   margin: 5px 5px 2px 5px;
   padding-left: 10px;
@@ -141,11 +150,11 @@ window#waybar {
   color: @text;
 }
 
-#language {
+#custom-notification {
   margin: 5px 5px 2px 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 3px;
   background-color: @base;
-  color: @foam;
+  color: @iris;
 }

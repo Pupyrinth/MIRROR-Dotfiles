@@ -88,10 +88,15 @@ alias zed='zeditor'
 
 alias chall='~/Scripts/challenges.sh'
 alias backup='~/Scripts/backup.sh'
+alias newpost='~/Scripts/newPost.sh'
+alias editpost='~/Scripts/editPost.sh'
+alias pushpost='~/Scripts/pushBlog.sh'
 
 alias brew='echo "Remeber what happened last time. You do not want to do that."'
 
 alias ustow='export CURRENT_PATH=$(pwd) && cd ~/myHome/Dotfiles && stow -t /home/luna . && cd $CURRENT_PATH'
+
+alias cdBlog='export CURRENT_PATH=$(pwd) && cd ~/myHome/Projects/Blog'
 
 # Paths
 PATH="$HOME/.npm-packages/bin:$PATH"
