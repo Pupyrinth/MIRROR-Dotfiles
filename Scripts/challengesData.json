@@ -1,5 +1,5 @@
 {
-  "installEpoch": "1736967026",
+  "installEpoch": "1742944940",
   "challenges": [
     {
       "title": "Nobara 2 Months",
@@ -53,6 +53,15 @@
       "lasted": "",
       "procentDone": "",
       "reinstalls": 1,
+      "current": false
+    },
+    {
+      "title": "EndeavourOS",
+      "startDate": "2025-03-26 00:22:20",
+      "endDate": "",
+      "lasted": "",
+      "procentDone": "",
+      "reinstalls": 0,
       "current": true
     }
   ]
